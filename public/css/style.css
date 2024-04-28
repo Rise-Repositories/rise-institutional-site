@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color: #00006B;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+
+.midIcon {
+    max-width: 50px;
+    height: 50px;
+    display: block;
+}
+
+.littleIcon {
+    width: 30px;
+    height: 30px;
+    display: block;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+
+
+
+.gap-1{
+    gap: 1rem;
+}
+
+.banner{
+    display: flex;
+    min-height: 680px;
+    justify-content: center;
+    gap: 10%;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-content: space-between;
+    align-items: center;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+
+.card-vertical{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    border-radius: 32px;
+    background-color: #749CD7;
+    border: solid 2px #ffe600;
+    text-align: center;
+    padding: 8vh;
+}
+
+.card-image{
+    width: 100%;
+    height: 50%;
+    border-radius: 10px 10px 0 0;
+    object-fit: cover;
+    justify-content: center;
+}
+
+
+
+.card-text{
+
+    flex-direction: column;
+    padding: 20px;
+    width: 100%;
+    gap: 5vh;
+    border-left: solid 2px #FFE600;
+    justify-content: center;
+}
+
+.card-horizontal{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+    border-radius: 10px;
+    color: #000;
+    justify-content: center;
+    
+}
+
+.singup-button{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: #2F6A8D;
+    color: #fff;
+    padding: 7px 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.text-main-section{
+    color: #D9D9D9;
+    font-size: 36px;}
+
+.image-main-section{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    color: #FFE600;
+}
+
+.escritaLogo {
+    font-family: 'Montserrat';
+    letter-spacing: 7px; 
+    color: #FFE600;
+    }
+
+.bg-blue{
+    background-color: #00006B;
+    border-bottom: solid 2px #FFE600;
+    padding: 2.5vh;
+    padding-left: 4.5vh;
+    padding-right: 4.5vh;
+}
+
+.ajustSVG {
+    margin-top: 10vh;
+}
+
+.margin-bottom-3{
+    font-family: 'Montserrat';
+    justify-content: center;
+}
+
+.svgHand{
+    display: flex;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8vh;
+}
+
+.titleHome{
+    color: #FFE600;
+    font-size: 48px;
+    margin-bottom: 3vh;
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+.textHome{
+    color: #d9d9d9;
+    font-size: 32px;
+    font-family: 'Montserrat';
+}
+
+.svgHandChield{
+    display: flex;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1vh;
+}
+
+.escritaCardTitulo{
+    color: #FFE600;
+    font-size: 32px;
+    margin-bottom: 3vh;
+    margin: 4vh;
+    font-family: 'Montserrat';
+    font-weight:600;
+}
+
+.escritaCardTexto{
+    color: #D9D9D9;
+    font-size: 24px;
+    margin: 4vh;
+    font-family: 'Montserrat';
+}
+
+.imgCombo{
+    display: flex;
+    color: #D9D9D9;
+    font-size: 24px;
+    width: 180%;
+    margin: 3vh;
+    font-family: 'Montserrat';
+    align-items: center;
+    justify-content: center;
+}
+
+.caseDeSucesso{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    margin-top: 10%;    
+    font-family: 'Montserrat';
+}
+
+.cardProjetos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.escritaCardTextoCase{
+    color: #D9D9D9;
+    font-size: 24px;
+    width: 83%;
+    margin: 4vh;
+    font-family: 'Montserrat';
+}
+
+.footer{
+    border-top: solid 2px #ffe600;
+    flex-direction: row;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contatos{
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    height: 80%;
+    width: 33%;
+    border-right: solid 2px #ffe600;
+    margin-left: 2%;
+
+}
+
+.logoFooter{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 80%;
+    width: 33%;
+    border-right: solid 2px #ffe600;
+}
+
+.navegacao{
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    height: 80%;
+    width: 33%;
+    margin-left: 2%;
+
+}
+
+.escritaLogoFooter {
+    font-family: 'Montserrat';
+    font-size: 32px;
+    letter-spacing: 8px; 
+    color: #FFE600;
+    }
+
+    .escritaCardTextoFooter{
+        color: #D9D9D9;
+        font-size: 16px;
+        font-family: 'Montserrat';
+    
+    }
+
+    .escritaCardTituloFooter{
+        color: #FFE600;
+        font-size: 24px;
+        margin-bottom: 3vh;
+        font-family: 'Montserrat';
+        font-weight:600;
+    }
